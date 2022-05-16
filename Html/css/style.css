@@ -71,6 +71,7 @@ Author URL: https://themeforest.net/user/ultimatewebsolutions/
 	background: #DDDDD7;
 }
 
+
 ::-webkit-scrollbar-thumb {
 	width: 3px;
 	background: #C57642;	
@@ -703,6 +704,18 @@ ul li {
 	}
 }
 
+
+/* images
+==================================== */
+.img {
+	border-radius: 25px;
+}
+
+
+
+
+
+
 /* Grid
 ==================================== */
 
@@ -907,6 +920,7 @@ ul li {
 	position: relative;
 	overflow: hidden !important;
 	padding-bottom: 100%;
+	border-radius: 25px;
 }
 
 .orb-photo-frame .orb-slideshow, .orb-photo-frame img {
@@ -1575,7 +1589,7 @@ label.cbx {
 	width: 330px;
 	height: 70px;
 	margin-left: auto;
-	background-color: #C57642;
+	background-color: blue;
 	position: absolute;
 	bottom: 0;
 	right: 60%;
@@ -1895,7 +1909,7 @@ label.cbx {
 	left: -60%;
 	height: 100%;
 	width: 100%;
-	background-color: #C57642;
+	background-color: blue;
 }
 
 .orb-home-2 .orb-content .orb-slide-caption .orb-main-title .h1, .orb-home-2 .orb-content .orb-slide-caption .orb-main-title h1 {
@@ -2182,7 +2196,7 @@ label.cbx {
 	z-index: 1;
 	bottom: 0;
 	left: -80px;
-	background-color: #C57642;
+	background-color: blue;
 }
 
 .orb-home-3 .orb-content .rb-object-frame .orb-caption {
@@ -2210,6 +2224,7 @@ label.cbx {
 
 .orb-home-3 .orb-content .orb-position-fix {
 	padding-top: 15vh;
+	
 }
 
 .orb-home-3 .orb-content .orb-position-fix .orb-obj-2 {
@@ -2380,7 +2395,8 @@ label.cbx {
 	z-index: 2;
 	top: 0;
 	right: -100px;
-	background-color: #C57642;
+	border-radius: 25px;
+	background-color: #94A59C; /* KORREKT FÄRG ------------------------------------ */
 }
 
 .orb-home-4 .orb-content .orb-object-frame {
@@ -2417,6 +2433,7 @@ label.cbx {
 	z-index: 1;
 	bottom: 80px;
 	left: -50px;
+	border-radius: 25px;
 	background-color: #979795;
 }
 
