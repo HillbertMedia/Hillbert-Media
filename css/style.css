@@ -1722,19 +1722,31 @@ label.cbx {
 
 @media (max-width: 1200px) {
 	.orb-home-4 .orb-content .orb-main-title h1 {
-		font-size: 52px;
+		font-size: 40px;
 	}
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1577px) {
+	.orb-home-4 .orb-content .orb-main-title h1 {
+		font-size: 50px;
+	}
+}
+
+@media (max-width: 1247px) {
 	.orb-home-4 .orb-content .orb-main-title h1 {
 		font-size: 42px;
 	}
 }
 
-@media (max-width: 810px) {
+@media (max-width: 1071px) {
 	.orb-home-4 .orb-content .orb-main-title h1 {
-		font-size: 36px;
+		font-size: 38px;
+	}
+}
+
+@media (max-width: 961px) {
+	.orb-home-4 .orb-content .orb-main-title h1 {
+		font-size: 32px;
 	}
 }
 
