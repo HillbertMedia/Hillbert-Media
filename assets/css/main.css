@@ -12,7 +12,7 @@
   }
   
 .bg-img {
-    background-image: url("/assets/img/home.png");
+    background-image: url("./assets/img/home.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center ;
@@ -184,7 +184,7 @@
 # About page
 --------------------------------------------------------------*/
 .about-bg-img {
-  background-image: url("/assets/img/about.png");
+  background-image: url("./assets/img/about.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -308,7 +308,7 @@
 @media (max-width: 599px) {
   
   .about-bg-img {
-    background-image: url("/assets/img/about.png");
+    background-image: url("./assets/img/about.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -357,7 +357,7 @@
 # WORK page
 --------------------------------------------------------------*/
 .work-bg-img {
-  background-image: url("/assets/img/work.png");
+  background-image: url("./assets/img/work.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
