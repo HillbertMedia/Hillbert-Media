@@ -1,232 +1,120 @@
 <!DOCTYPE html>
-<html lang="zxx" class="is-preload">
+<html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<!-- favicon  -->
-	<link rel="shortcut icon" href="img/ui/logo.ico" type="image/x-icon">
-	<!-- swiper css -->
-	<link rel="stylesheet" href="css/plugins/swiper.min.css">
-	<!-- fancybox css -->
-	<link rel="stylesheet" href="css/plugins/fancybox.min.css">
-	<!-- orabel css -->
-	<link rel="stylesheet" href="css/style.css">
-	<!-- page title -->
-	<title>Hillbert Media</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    
+  <link href="assets/css/main.css" rel="stylesheet">
+
+
 </head>
 
 <body>
+  <main class="bg-img">
 
-	<div class="orb-wrapper">
-		<!-- page loader -->
-		<div class="orb-loader-frame">
-			<div class="orb-loader">
-				<div class="orb-deco-1">
-					<div class="orb-prog"></div>
-				</div>
-				<div class="orb-deco-2">
-					<div class="orb-spiner"></div>
-				</div>
-			</div>
-		</div>
-		<!-- page loader end -->
-		<div id="orb-dynamic-content" class="transition-fade">
+    <div class="container">
+        <div class="content-fluid p-3">
+        
+            <div class="header-social-links d-flex justify-content-end">
+                <a href="#" class="twitter"><i class="bi bi-twitter"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg> </i></a>
+                <a href="#"><i class="bi bi-instagram"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                </svg></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                </svg></i></i></a>
+            </div>
+            </div>
 
-			<div class="orb-page-frame orb-home-4">
+            <div class="container text-center mt-5" >
+                
+                    <img class="img-fluid align-self-center" src="./assets/img/logo.png"/>
+             
+            </div>
+        
+        <div class="container mt-1">
+          <nav  class="navbar">
+            <ul>
+              <li><a href="index.html"  class="active">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="work.html">Work</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav><!-- .navbar -->
+        </div>
+     
+            <!--DIVIDER-->
+<div class="container mt-1">
+<div class="divider"></div>
+</div>
 
-				<div class="orb-top-bar-frame">
-					<div class="orb-content orb-top-bar">
-						<a href="index.html" class="orb-logo-frame">
-						
-							<!-- svg logo -->
-							<svg viewBox="0 0 125 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path
-									d="M11.3594 9.57031C11.3594 10.6901 11.1615 11.6719 10.7656 12.5156C10.3698 13.3594 9.80208 14.0104 9.0625 14.4688C8.32812 14.9271 7.48438 15.1562 6.53125 15.1562C5.58854 15.1562 4.7474 14.9297 4.00781 14.4766C3.26823 14.0234 2.69531 13.3776 2.28906 12.5391C1.88281 11.6953 1.67708 10.7266 1.67188 9.63281V9.07031C1.67188 7.95052 1.8724 6.96615 2.27344 6.11719C2.67969 5.26302 3.25 4.60938 3.98438 4.15625C4.72396 3.69792 5.56771 3.46875 6.51562 3.46875C7.46354 3.46875 8.30469 3.69792 9.03906 4.15625C9.77865 4.60938 10.349 5.26302 10.75 6.11719C11.1562 6.96615 11.3594 7.94792 11.3594 9.0625V9.57031ZM8.98438 9.05469C8.98438 7.86198 8.77083 6.95573 8.34375 6.33594C7.91667 5.71615 7.30729 5.40625 6.51562 5.40625C5.72917 5.40625 5.1224 5.71354 4.69531 6.32812C4.26823 6.9375 4.05208 7.83333 4.04688 9.01562V9.57031C4.04688 10.7318 4.26042 11.6328 4.6875 12.2734C5.11458 12.9141 5.72917 13.2344 6.53125 13.2344C7.31771 13.2344 7.92188 12.9271 8.34375 12.3125C8.76562 11.6927 8.97917 10.7917 8.98438 9.60938V9.05469ZM30.0734 10.8359H28.2062V15H25.8625V3.625H30.0891C31.4328 3.625 32.4693 3.92448 33.1984 4.52344C33.9276 5.1224 34.2922 5.96875 34.2922 7.0625C34.2922 7.83854 34.1229 8.48698 33.7844 9.00781C33.451 9.52344 32.9432 9.9349 32.2609 10.2422L34.7219 14.8906V15H32.2062L30.0734 10.8359ZM28.2062 8.9375H30.0969C30.6854 8.9375 31.1411 8.78906 31.4641 8.49219C31.787 8.1901 31.9484 7.77604 31.9484 7.25C31.9484 6.71354 31.7948 6.29167 31.4875 5.98438C31.1854 5.67708 30.7193 5.52344 30.0891 5.52344H28.2062V8.9375ZM55.3031 12.6562H51.1937L50.4125 15H47.9203L52.1547 3.625H54.3266L58.5844 15H56.0922L55.3031 12.6562ZM51.8266 10.7578H54.6703L53.2406 6.5L51.8266 10.7578ZM72.4469 15V3.625H76.4313C77.8115 3.625 78.8583 3.89062 79.5719 4.42188C80.2854 4.94792 80.6422 5.72135 80.6422 6.74219C80.6422 7.29948 80.499 7.79167 80.2125 8.21875C79.926 8.64062 79.5276 8.95052 79.0172 9.14844C79.6005 9.29427 80.0589 9.58854 80.3922 10.0312C80.7307 10.474 80.9 11.0156 80.9 11.6562C80.9 12.75 80.551 13.5781 79.8531 14.1406C79.1552 14.7031 78.1604 14.9896 76.8688 15H72.4469ZM74.7906 10.0469V13.1172H76.7984C77.3505 13.1172 77.7802 12.987 78.0875 12.7266C78.4 12.4609 78.5563 12.0964 78.5563 11.6328C78.5563 10.5911 78.0172 10.0625 76.9391 10.0469H74.7906ZM74.7906 8.39062H76.525C77.7073 8.36979 78.2984 7.89844 78.2984 6.97656C78.2984 6.46094 78.1474 6.09115 77.8453 5.86719C77.5484 5.63802 77.0771 5.52344 76.4313 5.52344H74.7906V8.39062ZM102.309 10.0703H97.8094V13.1172H103.091V15H95.4656V3.625H103.075V5.52344H97.8094V8.23438H102.309V10.0703ZM119.609 13.1172H124.586V15H117.266V3.625H119.609V13.1172Z" />
-								<circle cx="6.5" cy="9.5" r="6.5" fill="#94A59C" />
-								<circle cx="14.5" cy="4.5" r="1.5" fill="#94A59C" />
-							</svg>
-						</a>
-						<div class="orb-right-side">
-							<div class="orb-menu-frame">
-								<nav>
-									<ul class="orb-menu">
-										<li class="orb-has-children orb-current">
-											<a href="index.html">Home</a>
-										
-										</li>
-										<li class="orb-has-children">
-											<a href="about-3.html">About</a>
-											
-										</li>
-										<li class="orb-has-children">
-											<a href="portfolio-1.html">Portfolio</a>
-											<ul>
-												<li><a href="portfolio-1.html">Type 1</a></li>
-												<li><a href="portfolio-2.html">Type 2</a></li>
-												<li><a href="portfolio-3.html">Type 3</a></li>
-												<li><a href="portfolio-4.html">Type 4</a></li>
-												<li><a href="portfolio-5.html">Type 5</a></li>
-											</ul>
-										</li>
-									
-										<li class="orb-has-children">
-											<a href="contact-1.html">Contacts</a>
-											<ul>
-												<li><a href="contact-1.html">Type 1</a></li>
-												<li><a href="contact-2.html">Type 2</a></li>
-												<li><a href="contact-3.html">Type 3</a></li>
-											</ul>
-										</li>
-									</ul>
-								</nav>
-							</div>
-						</div>
-						<div class="orb-menu-btn">
-							<span></span>
-						</div>
-					</div>
-				</div>
+  <!---GALLERY OF PHOTOS-->
+  <div class="container mt-5">
+    <div class="container ">
+      <div class="row gallery justify-content-center">
+        <div class="col-xl-5 col-lg-5 col-md-5">
+          <div class="gallery-item">
+            <img src="assets/img/gallery-12.jpg" class="img-fluid rounded" alt="">
+          </div>
+        </div><!-- End Gallery Item -->
+        <div class="col-xl-5 col-lg-5 col-md-5">
+          <div class="gallery-item">
+            <img src="assets/img/gallery-12.jpg" class="img-fluid rounded" alt="">
+          </div>
+        </div><!-- End Gallery Item -->
+        <div class="col-xl-5 col-lg-5 col-md-5">
+          <div class="gallery-item">
+            <img src="assets/img/gallery-12.jpg" class="img-fluid rounded" alt="">
+          </div>
+        </div><!-- End Gallery Item -->
+        <div class="col-xl-5 col-lg-5 col-md-5">
+          <div class="gallery-item">
+            <img src="assets/img/gallery-12.jpg" class="img-fluid rounded" alt="">
+          </div>
+        </div><!-- End Gallery Item -->
+          
+    <div class="container d-flex justify-content-center flex-column">
+          <img src="./assets/img/gallery-9.jpg" alt="Big Image" class="img-fluid rounded" />
+      </div>
+    </div>
 
-				<div class="orb-content">
-					<div class="orb-grid">
-						<div class="orb-g-25 orb-sm-100">
-							<div class="orb-object-frame">
-								<div class="orb-photo-frame orb-obj-1">
-									<img src="img/photo/pexels-photo-2240069.jpeg" alt="photo">
-								</div>
-							
-							</div>
-						</div>
-						<div class="orb-g-50 orb-sm-100">
-							<div class="orb-main-title">
-								<!-- <div class="orb-suptitle">
-									<span class="orb-number">01</span>
-									<span>Video Creator</span>
-								</div> -->
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Hillbert Media 2023</span></strong>. All Rights Reserved
+      </div>
  
-								<div class="orb-suptitle">
-									<h1>AUTHENTIC <br>CONTENT</h1>
-								</div> 
-								
-								<div class="orb-button-frame">
-									<div class="orb-btn-label">See more of our work here</div>
-									<a href="portfolio-5.html" class="orb-sm-button">
-										<div class="orb-arrow"><img src="img/ui/arrow-1.svg" alt="arrow"></div>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="orb-g-25 orb-sm-100">
-							<div class="orb-object-frame">
-								<div class="orb-photo-frame orb-obj-2">
-									<img src="img/photo/pexels-photo-2975443.webp" alt="photo">
-								</div>
-							
-							</div>
-						</div>
-					</div>
-				</div>
+    </div>
+  </footer><!-- End Footer -->
 
-			</div>
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-			<div class="orb-big-menu-frame">
+  <div id="preloader">
+    <div class="line"></div>
+  </div>
 
-				<div class="orb-big-menu orb-big-menu-1">
-					<div class="orb-grid">
-						<div class="orb-g-30 orb-md-50 orb-sm-100">
-							<div class="orb-menu-frame orb-fs-menu">
-								<nav>
-									<ul class="orb-menu">
-										<li class="orb-has-children orb-current">
-											<a href="#." data-no-swup>Home</a>
-											<ul>
-											
-												<li><a href="index.html">Home </a></li>
-												
-											</ul>
-										</li>
-										<li class="orb-has-children">
-											<a href="#." data-no-swup>About</a>
-											<ul>
-												<li><a href="about-1.html">Type 1</a></li>
-												<li><a href="about-2.html">Type 2</a></li>
-												<li><a href="about-3.html">Type 3</a></li>
-											</ul>
-										</li>
-										<li class="orb-has-children">
-											<a href="#." data-no-swup>Portfolio</a>
-											<ul>
-												<li><a href="portfolio-1.html">Type 1</a></li>
-												<li><a href="portfolio-2.html">Type 2</a></li>
-												<li><a href="portfolio-3.html">Type 3</a></li>
-												<li><a href="portfolio-4.html">Type 4</a></li>
-												<li><a href="portfolio-5.html">Type 5</a></li>
-											</ul>
-										</li>
-										<li class="orb-has-children">
-											<a href="#." data-no-swup>Blog</a>
-											<ul>
-												<li><a href="blog-1.html">Type 1</a></li>
-												<li><a href="blog-2.html">Type 2</a></li>
-												<li><a href="blog-3.html">Classic list</a></li>
-												<li><a href="blog-4.html">Publication</a></li>
-											</ul>
-										</li>
-										<li class="orb-has-children">
-											<a href="#." data-no-swup>Contacts</a>
-											<ul>
-												<li><a href="contact-1.html">Type 1</a></li>
-												<li><a href="contact-2.html">Type 2</a></li>
-												<li><a href="contact-3.html">Type 3</a></li>
-											</ul>
-										</li>
-									</ul>
-								</nav>
-							</div>
-						</div>
-						<div class="orb-g-70 orb-md-50 orb-sm-100">
-							<div class="rb-object-frame">
-								<div class="orb-photo-frame orb-obj-1">
-									<img src="img/photo/pexels-photo-2240069.jpeg" alt="photo">
-								</div>
-								<div class="orb-position-fix">
-									<div class="orb-deco"></div>
-									<div class="orb-photo-frame orb-obj-2">
-										<img src="img/photo/pexels-photo-2240069.jpeg" alt="photo">
-									</div>
-								</div>
-								<div class="orb-descr">
-									<div class="orb-descr-title">
-										<div>Menu</div>
-										<div class="orb-line"></div>
-									</div>
-									<p>Stay tuned for news and new work on Instagram</p>
-									<a href="https://www.instagram.com/" target="_blank" data-no-swup><img src="img/ui/instagram-2.svg" alt="Instagram"></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-			</div>
-
-		</div>
-	</div>
-
-	<!-- jquery js -->
-	<script src="js/plugins/jquery.min.js"></script>
-	<!-- fancybox js -->
-	<script src="js/plugins/fancybox.min.js"></script>
-	<!-- swup js -->
-	<script src="js/plugins/swup.min.js"></script>
-	<!-- swiper js -->
-	<script src="js/plugins/swiper.min.js"></script>
-	<!-- parsley js -->
-	<script src="js/plugins/parsley.min.js"></script>
-	<!-- orabel js -->
-	<script src="js/main.js"></script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 

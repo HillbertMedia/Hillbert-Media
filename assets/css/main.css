@@ -1,0 +1,411 @@
+/* Colors */
+:root {
+    --color-default: #D9DFD7;
+    --color-primary: #D9DFD7;
+    --color-secondary: #94A59C;
+    --color-tertiary: #E0D9CF;
+    --color-quaternary: #D8D4D0;
+  }
+
+  :root {
+    scroll-behavior: smooth;
+  }
+  
+.bg-img {
+    background-image: url("/assets/img/home.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center ;
+  }
+  .divider {
+    height: 1px;
+    background-color: black;
+    margin: 20px 0;
+  }
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 0;
+    color: black 
+ }
+ .navbar a {
+    color: black;
+ }
+
+ .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+
+  .header-social-links {
+    padding-right: 1rem;
+    
+  }
+  
+   .header-social-links a {
+    color:black;
+    padding-left: 1rem;
+    display: inline-block;
+    line-height: 0rem;
+    transition: 0.3s;
+    font-size: 1rem;
+  }
+  
+   .header-social-links a:hover {
+    color: var(--color-default)
+  }
+  
+  @media (max-width: 575px) {
+   .header-social-links  {
+     padding-right: 1rem;
+    }
+    .header-social-links a  {
+      width: 30px;
+     }
+    .mini-logo {
+      display: none;
+    }
+  }
+
+  /*--------------------------------------------------------------
+# Desktop Navigation
+--------------------------------------------------------------*/
+@media (min-width: 800px) {
+  .navbar {
+    padding: 0;
+    color: black 
+  }
+
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+
+  .navbar li {
+    position: relative;
+  }
+
+  .navbar a,
+  .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.625rem 0 0.625rem 1.875rem;
+    font-family: var(--font-primary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: black;
+    white-space: nowrap;
+    transition: 0.3s;
+  }
+
+  .navbar a i,
+  .navbar a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+  }
+
+  .navbar a:hover,
+  .navbar .active,
+  .navbar .active:focus,
+  .navbar li:hover>a {
+    color: var(--color-secondary)
+  }
+}
+
+ /*--------------------------------------------------------------
+# Mobile Navigation
+--------------------------------------------------------------*/
+@media (max-width: 799px) {
+  .navbar {
+    color: black 
+  }
+
+  .navbar ul {
+   
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  .navbar a,
+  .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.625rem 0 0.625rem 1.875rem;
+    font-family: var(--font-primary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: .96rem;
+    font-weight: 400;
+    color: black;
+    white-space: nowrap;
+    transition: 0.3s;
+  }
+
+  .navbar a i,
+  .navbar a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+  }
+
+  .navbar a:hover,
+  .navbar .active,
+  .navbar .active:focus,
+  .navbar li:hover>a {
+    color: var(--color-secondary)
+  }
+}
+
+.gallery .gallery-item {
+  padding-bottom: 40px;
+}
+.gallery .gallery-item img {
+  transition: 0.3s;
+}
+.gallery .gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+
+/*--------------------------------------------------------------
+# About page
+--------------------------------------------------------------*/
+.about-bg-img {
+  background-image: url("/assets/img/about.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mini-logo {
+  width: 20%;
+  height:20%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.header h1 {
+ font-weight: 700;
+ font-size: 100px;
+}
+.about {
+  min-height: 950px;
+}
+/*--------------------------------------------------------------
+# EXTRA EXTRA LARGE SCREENS
+--------------------------------------------------------------*/
+@media(min-width: 1200px) {
+  .about-section p {
+    padding-top: 8rem;
+    padding-left: 17rem;
+    font-size: 20px;
+  }
+  .latest-project img{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    align-self: center;
+  }
+  .latest-project h3 {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+  }
+ 
+ }
+
+ /*--------------------------------------------------------------
+# EXTRA LARGE SCREENS
+--------------------------------------------------------------*/
+
+ @media(max-width: 1199px){
+  .about-section p {
+    padding-top: 12rem;
+    padding-left: 11rem;
+    font-size: 20px;
+  }
+  .latest-project img{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    align-self: center;
+  }
+  .latest-project h3 {
+    margin-top: 9%;
+    display: flex;
+    justify-content: center;
+  }
+ }
+
+ /*--------------------------------------------------------------
+# LARGE SCREEN
+--------------------------------------------------------------*/
+ @media (max-width: 991px) {
+  .about-section p {
+    padding-top:12rem;
+    padding-left: 4rem;
+  
+  }
+  .latest-project img{
+    height: 200px;
+    width: 400px;
+    display: flex;
+    align-self: center;
+  }
+  .latest-project h3 {
+    margin-top: 12%;
+    display: flex;
+    justify-content: center;
+  }
+ }
+ /*--------------------------------------------------------------
+# MEDIUM SCREEN
+--------------------------------------------------------------*/
+ @media (max-width: 767px) {
+  .about-section p {
+    padding-top:15rem;
+    padding-left: 0rem;
+    font-size: 20px;
+  }
+  .header h1 {
+    font-weight: 700;
+    font-size: 70px;
+   }
+
+   .latest-project img{
+    height: 200px;
+    width: 400px;
+    display: flex;
+  }
+  .latest-project h3 {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+  }
+
+ }
+
+ /*--------------------------------------------------------------
+# SMALL SCREEN (mobile)
+--------------------------------------------------------------*/
+@media (max-width: 599px) {
+  
+  .about-bg-img {
+    background-image: url("/assets/img/about.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  .about-section h3 {
+    font-size: x-large;
+  }
+  .header h1 {
+    font-size: 10px;
+
+  }
+  
+  .about-section p {
+    padding-top: 5rem;
+    font-size: medium;
+  }
+  .header h1 {
+    font-weight: 700;
+    font-size: 50px;
+   }
+
+   .about {
+    min-height: 650px;
+  }
+
+   .latest-project img{
+    height: 200px;
+    width: 400px;
+    display: flex;
+  }
+  .latest-project h3 {
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+  }
+
+ }
+
+.about-section p {
+  font-weight: 700;
+ 
+}
+
+/*--------------------------------------------------------------
+# WORK page
+--------------------------------------------------------------*/
+.work-bg-img {
+  background-image: url("/assets/img/work.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+/*--------------------------------------------------------------
+# CONTACT page
+--------------------------------------------------------------*/
+.contact-bg-color {
+ background-color: var(--color-primary);
+}
+
+.btn button {
+  background-color: var(--color-secondary);
+  display: flex;
+  align-items: end;
+
+  margin-right: 80%;
+ 
+  border: #D8D4D0;
+  border-radius: 3px;
+  padding: 8px 10px 8px 10px;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer {
+  margin-top: 30px;
+  padding: 30px 0;
+  font-size: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer .copyright {
+  text-align: center;
+  color: var(--color-primary);
+}
+
+.footer .credits {
+  padding-top: 6px;
+  text-align: center;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer .credits a {
+  color: var(--color-primary);
+}
